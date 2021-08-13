@@ -17,7 +17,7 @@ from tensorflow.keras.losses import (
     binary_crossentropy,
     sparse_categorical_crossentropy
 )
-from utils import broadcast_iou
+from yolo.utils import broadcast_iou
 
 
 yolo_anchors = np.array([(10, 13), (16, 30), (33, 23), (30, 61), (62, 45),
